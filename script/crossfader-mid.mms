@@ -3,6 +3,7 @@
 @version="1.0";
 @description="Sets and keeps crossfader at 0";
 
+//initial load
 void InitEffect() {
     SetFadeType(1);
     SetFadeValue(127);
@@ -22,9 +23,10 @@ void PreRenderEffect() {
 }
 
 void PostRenderEffect() {
-
+    //noting
 }
 
+//call initial load
 void MatrixSizeChanged() {
     InitEffect();
 }
