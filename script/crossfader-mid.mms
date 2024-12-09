@@ -13,12 +13,12 @@ void InitEffect() {
 void PreRenderEffect() {
     if (GetFadeValue() != 127) {
         SetFadeValue(127);
-        WriteText("Script forced fader to be at 0")
+        WriteText("Script forced fader to be at 0");
     }
     
     if (GetFadeType() != 1) {
         SetFadeType(1);  
-        WriteText("Script forced fader to WF-mode")  
+        WriteText("Script forced fader to WF-mode");  
     }
 }
 
