@@ -22,9 +22,7 @@ void PreRenderEffect() {
     }
 }
 
-void PostRenderEffect() {
-    //noting
-}
+void PostRenderEffect() {}
 
 //call initial load
 void MatrixSizeChanged() {
